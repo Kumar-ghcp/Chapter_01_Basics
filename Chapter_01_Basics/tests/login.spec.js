@@ -6,3 +6,4 @@ test.describe('Login Test', () => {
     expect(page.url()).toBe('https://www.saucedemo.com/');
   });
 });
+
