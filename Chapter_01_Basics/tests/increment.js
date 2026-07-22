@@ -9,6 +9,7 @@ const { addAbortListener } = require("node:events");
 // console.log(a);
 
 let a=10;
+
 let result = (++a + a + a++);
 console.log("Print result", result);
 //console.log("Print a", a);
