@@ -4,14 +4,14 @@
 // console.log(++a + a);
 // console.log(a);
 var _require = require("node:events"),
-    addAbortListener = _require.addAbortListener; // let a=10;
-// console.log(++a + a + a++);
-// console.log(a);
-
+    addAbortListener = _require.addAbortListener;
 
 var a = 10;
-var result = ++a + a + a++;
-console.log("Print result", result); //console.log("Print a", a);
+console.log(++a + a + a++);
+console.log(a); // let a=10;
+// let result = (++a + a + a++);
+// console.log("Print result", result);
+// //console.log("Print a", a);
 // let i=1;
 // let result = (i++ + ++i);
 // console.log(result,i);

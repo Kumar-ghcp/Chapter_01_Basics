@@ -4,15 +4,15 @@
 
 const { addAbortListener } = require("node:events");
 
-// let a=10;
-// console.log(++a + a + a++);
-// console.log(a);
-
 let a=10;
+console.log(++a + a + a++);
+console.log(a);
 
-let result = (++a + a + a++);
-console.log("Print result", result);
-//console.log("Print a", a);
+// let a=10;
+
+// let result = (++a + a + a++);
+// console.log("Print result", result);
+// //console.log("Print a", a);
 
 // let i=1;
 // let result = (i++ + ++i);
