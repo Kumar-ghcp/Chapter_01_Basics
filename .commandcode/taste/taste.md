@@ -12,3 +12,7 @@
 
 # environment
 - Works on Windows, running commands from PowerShell (uses `npx` and Windows-style paths on the `D:` drive). Confidence: 0.7
+
+# git
+- Expects the agent to handle the git workflow end to end (stage, commit with a descriptive message, and push to the GitHub remote) rather than just preparing the commands. Confidence: 0.55
+- Prefers to commit and push everything in the working tree, including generated test reports (Allure/Playwright HTML reports) and build output, rather than restricting commits to source files only. Confidence: 0.5
