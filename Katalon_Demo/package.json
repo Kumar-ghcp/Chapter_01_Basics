@@ -1,0 +1,19 @@
+{
+  "name": "katalon-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report",
+    "allure:generate": "npx allure generate ../allure-results --clean -o ../allure-report",
+    "allure:open": "npx allure open ../allure-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "allure-playwright": "^3.12.2"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.46.1"
+  }
+}

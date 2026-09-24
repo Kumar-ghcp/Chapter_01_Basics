@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","30791","@smoke @e2e Verify customer can purchase Grey Jacket successfully","webkit","2026-09-24","broken","2026-09-24","End-to-end purchase","checkout\checkout.spec.js","",""
+"","30642","@smoke @e2e Verify customer can purchase Grey Jacket successfully","firefox","2026-09-24","broken","2026-09-24","End-to-end purchase","checkout\checkout.spec.js","",""
+"","28141","@smoke @e2e Verify customer can purchase Grey Jacket successfully","chromium","2026-09-24","passed","2026-09-24","End-to-end purchase","checkout\checkout.spec.js","",""
